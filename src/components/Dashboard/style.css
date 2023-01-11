@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    /* background-image: url('../../Images/pexels-nathan-cowley-4320388.jpg');  */
+ }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+ .dashboardWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+
+ }
+ .dashCard {
+    width: 250px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: antiquewhite;
+ }
+
+.dashCard_btn {
+    color: black;
+}
