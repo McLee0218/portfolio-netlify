@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/portfolio" element={<Quote />}>
+          <Route exact path="/" element={<Quote />}>
           </Route>
-          <Route path="/Dashboard" element={<Dashboard />}>
+          <Route exact path="/Dashboard" element={<Dashboard />}>
           </Route>
-          <Route path="/gitHub" element={<GitHubCard />}>
+          <Route exact path="/gitHub" element={<GitHubCard />}>
           </Route>
         </Routes>
       </Router>
